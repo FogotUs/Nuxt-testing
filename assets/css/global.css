@@ -1,0 +1,31 @@
+main {
+    margin: 50px 60px;
+}
+
+/* 960px – 1280px */
+@media (min-width: 960px) and (max-width: 1280px) {
+    main {
+        margin: 50px 40px;
+    }
+}
+
+/* 766px – 960px */
+@media (min-width: 766px) and (max-width: 959px) {
+    main {
+        margin: 20px 15px;
+    }
+}
+
+/* 430px – 766px */
+@media (min-width: 430px) and (max-width: 765px) {
+    main {
+        margin: 23px 20px;
+    }
+}
+
+/* до 430px */
+@media (max-width: 429px) {
+    main {
+        margin: 20px 20px;
+    }
+}
